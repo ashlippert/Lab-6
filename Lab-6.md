@@ -39,7 +39,7 @@ March 12th, 2025
    Once assembled, the RedBoard circuit created using schematic 1 should resemble what is shown in Figure 2 below.
 
 <div align= "center">
-<img src="" alt "Circuit 1" width="400"/>
+<img src="https://github.com/user-attachments/assets/8db0a36d-5de0-469e-8f9f-1d750c6c0ccf)" alt "Circuit 1" width="400"/>
 <br>
 <figcaption style="font-size: 16px; text-align: center;"> Figure 2: Constructed ultrasonic sensor circuit from Schematic 1. </figcaption>
 </div>
@@ -63,7 +63,7 @@ March 12th, 2025
   Once assembled, the circuit should look resemble Figure 5 below.
 
    <div align="center">
-  <img src="https://github.com/user-attachments/assets/23505952-297d-40d4-9144-ae91f7526852" alt="Assembled potentiometer controlled LED circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/23505952-297d-40d4-9144-ae91f7526852" alt="Assembled motor and H-bridge circuit" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 5: Constructed Motor and H-Bridge circuit from Figure 3. </figcaption>
 </div>
@@ -156,7 +156,7 @@ Part 1: Learn to Listen
 Serial Monitor Output for ReadDistanceAndSend_Lab6 code:
 
 <div align="center">
-  <img src="" alt="ReadDistanceAndSend Serial Monitor" width="400">
+  <img src="https://github.com/user-attachments/assets/3f194654-8557-45e5-9840-38ef7e385d43" alt="ReadDistanceAndSend Serial Monitor" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 12: ReadDistanceAndSend_Lab6 serial monitor output. </figcaption>
 </div>
@@ -173,7 +173,7 @@ Serial Monitor Output for ReadDistanceAndSend_Lab6 code:
 
 MotorMovement_Lab6 Code Serial Monitor Output:
 <div align="center">
-  <img src="" alt="MotorMovement Serial Monitor" width="400">
+  <img src="https://github.com/user-attachments/assets/5bde0969-988b-40a6-865b-5ac593068fb7" alt="MotorMovement Serial Monitor" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 13: MotorMovement_Lab6 serial monitor output. </figcaption>
 </div>
@@ -182,7 +182,7 @@ MotorMovement_Lab6 Code Serial Monitor Output:
 
 MotorMovement_Lab6 Code with Obstacle Detected Serial Monitor Output:
 <div align="center">
-  <img src="" alt="MotorMovement Serial Monitor Obstacle" width="400">
+  <img src="https://github.com/user-attachments/assets/3b864318-4c9d-461e-bf7b-5e71aedd1942" alt="MotorMovement Serial Monitor Obstacle" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 14: MotorMovement_Lab6 serial monitor output when obstacle is detected. </figcaption>
 </div>
