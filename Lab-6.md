@@ -29,7 +29,7 @@ March 12th, 2025
    To begin, the HC-SR04 ultrasonic sensor is connected to the RedBoard to measure distances. The sensor’s VCC and GND pins are wired to the appropriate power and ground terminals on the RedBoard. The Trigger (Trig) pin is connected to Digital Pin 7, and the Echo pin is connected to Digital Pin 6. Proper wiring ensures accurate distance measurement. Once connected, the RedBoard is linked to a computer via USB, and the Arduino IDE is opened. The correct board and port settings must be selected, and a simple distance measurement program is uploaded to verify functionality. The schematic describing the circuit used for this part of the lab is provided in Figure 1.
 
 <div align= "center">
-<img src="" alt "Schematic 1" width="400"/>
+<img src="https://github.com/user-attachments/assets/b0245cbf-2e29-4b22-8e0d-4353f7d6f868" alt "Schematic 1" width="400"/>
 <br>
 <figcaption style="font-size: 16px; text-align: center;"> Figure 1: Ultrasonic sensor circuit schematic. </figcaption>
 </div>
@@ -39,7 +39,7 @@ March 12th, 2025
    Once assembled, the RedBoard circuit created using schematic 1 should resemble what is shown in Figure 2 below.
 
 <div align= "center">
-<img src="https://github.com/user-attachments/assets/d035d937-2607-494d-9e97-8ce2f591d9b5" alt "Circuit 1" width="400"/>
+<img src="" alt "Circuit 1" width="400"/>
 <br>
 <figcaption style="font-size: 16px; text-align: center;"> Figure 2: Constructed ultrasonic sensor circuit from Schematic 1. </figcaption>
 </div>
@@ -53,7 +53,7 @@ March 12th, 2025
 
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/4cec5b73-a503-4f8a-9187-81eadedb0bf6" alt="Schematic 2" width="400">
+<img src="https://github.com/user-attachments/assets/633592d9-ac9f-4a61-b458-7a55928dbb9d" alt="Schematic 2" width="400">
 <br/>
 <figcaption style="font-size: 16px; text-align: center;"> Figure 3: Motor and H-Bridge controlled circuit schematic. </figcaption>
 </div>   
