@@ -83,44 +83,51 @@ March 12th, 2025
    The code used for this portion of the lab is provided in Figure 5 below:
 
 <div align="center">
-  <img src="" alt="Assembled potentiometer controlled LED circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/e885a428-fb75-416c-bf46-5078c521bd47" alt="Assembled potentiometer controlled LED circuit" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 5: Constructed Motor and H-Bridge circuit from Figure 3. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 5: ReadDistanceAndSend_Lab6 code. </figcaption>
 </div>
 <br>
 
+   To test the accuracy of our distance measurement, a ruler was placed next to the sensor to compare readings to the Serial Monitor. This ruler setup is shown below in Figure 6 below.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/13dfc457-b85a-4e2b-9dda-8a47608c2b86" alt="Testing Ultrasonic Sensor" width="400">
+      <br/>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 6: Testing accuracy of ultrasonic sensor measurements. </figcaption>
+</div>
+<br/>
 
 **Part 2: Move It**
 
   Motor control is tested by uploading a program that sends movement commands to the motors. The Serial Monitor is used to adjust PWM values and verify speed changes at different levels. The motors should move forward, reverse, turn left, and turn right as programmed. Once basic motor functionality is confirmed, the ultrasonic sensor is integrated into the program to implement collision avoidance. The system is tested by placing an object in front of the robot; when the distance is less than 10 cm, the motors should stop. If the robot does not respond correctly, adjustments are made to the algorithm to improve accuracy and responsiveness.
 
-  The code used for this portion of the lab is provided in Figure 6-10 below:
+  The code used for this portion of the lab is provided in Figure 7-11 below:
 
  <div align="center">
   <img src="https://github.com/user-attachments/assets/f5637444-fa95-42f0-ad5d-643e135fe876" alt="MotorMovement 1" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 6: MotorMovement_Lab6 Code 1/5. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 7: MotorMovement_Lab6 code 1/5. </figcaption>
 </div>
 <br>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ccffbc81-e626-4c0b-bebc-e2f065849227" alt="MotorMovement 2" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 7: MotorMovement_Lab6 Code 2/5. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 8: MotorMovement_Lab6 code 2/5. </figcaption>
 </div>
 <br>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/455d2225-703b-4f87-9161-3ebf8c7a09a9" alt="MotorMovement 3" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 8: MotorMovement_Lab6 Code 3/5. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 9: MotorMovement_Lab6 code 3/5. </figcaption>
 </div>
 <br>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e17d9440-bda3-4705-a0a4-94eeebc10dd6" alt="MotorMovement 4" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 9: MotorMovement_Lab6 Code 4/5. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 10: MotorMovement_Lab6 code 4/5. </figcaption>
 </div>
 <br>
 
@@ -128,19 +135,58 @@ March 12th, 2025
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f797113b-4b97-4dc3-acc5-a977d4ba0d2d" alt="MotorMovement 5" width="400">
       <br/>
-  <figcaption style="font-size: 16px; text-align: center;"> Figure 10: MotorMovement_Lab6 Code 5/5. </figcaption>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 11: MotorMovement_Lab6 code 5/5. </figcaption>
 </div>
 <br/>
 
 ## Test Results:
 
-**Table 1: Resistor Values**
+Part 1: Learn to Listen
+
+**Table 1: Testing Ultrasonic Sensor Readings**
+| Actual Distance (cm) | Serial Monitor Distance (cm) |
+|----------------------|------------------------------|
+| 2.2                  | 2.7                          |
+| 6                    | 5.6                          |
+| 3.1                  | 3.07                         |
+| 3.2                  | 3.19                         |
+| 10                   | 9.21                         |
+| 5                    | 3.84                         |
+
+Serial Monitor Output for ReadDistanceAndSend_Lab6 code:
+
+<div align="center">
+  <img src="" alt="ReadDistanceAndSend Serial Monitor" width="400">
+      <br/>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 12: ReadDistanceAndSend_Lab6 serial monitor output. </figcaption>
+</div>
+<br/>
+
+**Part 2: Move It**
+
+**Table 2: Minimum Motor Speed**
+| Set Speed | Movement? |
+|-----------|-----------|
+| 10        | No        |
+| 20        | No        |
+| 30        | Yes       |
+
+MotorMovement_Lab6 Code Serial Monitor Output:
+<div align="center">
+  <img src="" alt="MotorMovement Serial Monitor" width="400">
+      <br/>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 13: MotorMovement_Lab6 serial monitor output. </figcaption>
+</div>
+<br/>
 
 
-
-**Table 2: LED Blinking Delay**
-
-
+MotorMovement_Lab6 Code with Obstacle Detected Serial Monitor Output:
+<div align="center">
+  <img src="" alt="MotorMovement Serial Monitor Obstacle" width="400">
+      <br/>
+  <figcaption style="font-size: 16px; text-align: center;"> Figure 14: MotorMovement_Lab6 serial monitor output when obstacle is detected. </figcaption>
+</div>
+<br/>
 
 ## Discussion:
 
