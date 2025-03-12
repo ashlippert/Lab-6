@@ -63,7 +63,7 @@ March 12th, 2025
   Once assembled, the circuit should look resemble Figure 5 below.
 
    <div align="center">
-  <img src="https://github.com/user-attachments/assets/23505952-297d-40d4-9144-ae91f7526852" alt="Assembled motor and H-bridge circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/8707f01e-944d-4afc-a6e9-ef633d856079" alt="Assembled motor and H-bridge circuit" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 5: Constructed Motor and H-Bridge circuit from Figure 3. </figcaption>
 </div>
@@ -90,8 +90,9 @@ March 12th, 2025
 <br>
 
    To test the accuracy of our distance measurement, a ruler was placed next to the sensor to compare readings to the Serial Monitor. This ruler setup is shown below in Figure 6 below.
+   
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/13dfc457-b85a-4e2b-9dda-8a47608c2b86" alt="Testing Ultrasonic Sensor" width="400">
+  <img src="https://github.com/user-attachments/assets/ae5c3a9a-77ca-4d4b-817e-ef3988642852" alt="Testing Ultrasonic Sensor" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 6: Testing accuracy of ultrasonic sensor measurements. </figcaption>
 </div>
