@@ -97,35 +97,36 @@ March 12th, 2025
   The code used for this portion of the lab is provided in Figure 6-10 below:
 
  <div align="center">
-  <img src="" alt="MotorMovement 1" width="400">
+  <img src="https://github.com/user-attachments/assets/f5637444-fa95-42f0-ad5d-643e135fe876" alt="MotorMovement 1" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 6: MotorMovement_Lab6 Code 1/5. </figcaption>
 </div>
 <br>
- 
+
 <div align="center">
-  <img src="" alt="MotorMovement 2" width="400">
+  <img src="https://github.com/user-attachments/assets/ccffbc81-e626-4c0b-bebc-e2f065849227" alt="MotorMovement 2" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 7: MotorMovement_Lab6 Code 2/5. </figcaption>
 </div>
 <br>
 
 <div align="center">
-  <img src="" alt="MotorMovement 3" width="400">
+  <img src="https://github.com/user-attachments/assets/455d2225-703b-4f87-9161-3ebf8c7a09a9" alt="MotorMovement 3" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 8: MotorMovement_Lab6 Code 3/5. </figcaption>
 </div>
 <br>
 
 <div align="center">
-  <img src="" alt="MotorMovement 4" width="400">
+  <img src="https://github.com/user-attachments/assets/e17d9440-bda3-4705-a0a4-94eeebc10dd6" alt="MotorMovement 4" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 9: MotorMovement_Lab6 Code 4/5. </figcaption>
 </div>
 <br>
 
+
 <div align="center">
-  <img src="" alt="Assembled potentiometer controlled LED circuit" width="400">
+  <img src="https://github.com/user-attachments/assets/f797113b-4b97-4dc3-acc5-a977d4ba0d2d" alt="MotorMovement 5" width="400">
       <br/>
   <figcaption style="font-size: 16px; text-align: center;"> Figure 10: MotorMovement_Lab6 Code 5/5. </figcaption>
 </div>
