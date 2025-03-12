@@ -142,7 +142,7 @@ March 12th, 2025
 
 ## Test Results:
 
-Part 1: Learn to Listen
+**Part 1: Learn to Listen**
 
 **Table 1: Testing Ultrasonic Sensor Readings**
 | Actual Distance (cm) | Serial Monitor Distance (cm) |
@@ -154,7 +154,7 @@ Part 1: Learn to Listen
 | 10                   | 9.21                         |
 | 5                    | 3.84                         |
 
-Serial Monitor Output for ReadDistanceAndSend_Lab6 code:
+*Serial Monitor Output for ReadDistanceAndSend_Lab6 code:*
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3f194654-8557-45e5-9840-38ef7e385d43" alt="ReadDistanceAndSend Serial Monitor" width="400">
@@ -172,7 +172,7 @@ Serial Monitor Output for ReadDistanceAndSend_Lab6 code:
 | 20        | No        |
 | 30        | Yes       |
 
-MotorMovement_Lab6 Code Serial Monitor Output:
+*MotorMovement_Lab6 Code Serial Monitor Output:*
 <div align="center">
   <img src="https://github.com/user-attachments/assets/5bde0969-988b-40a6-865b-5ac593068fb7" alt="MotorMovement Serial Monitor" width="400">
       <br/>
@@ -181,7 +181,7 @@ MotorMovement_Lab6 Code Serial Monitor Output:
 <br/>
 
 
-MotorMovement_Lab6 Code with Obstacle Detected Serial Monitor Output:
+*MotorMovement_Lab6 Code with Obstacle Detected Serial Monitor Output:*
 <div align="center">
   <img src="https://github.com/user-attachments/assets/3b864318-4c9d-461e-bf7b-5e71aedd1942" alt="MotorMovement Serial Monitor Obstacle" width="400">
       <br/>
