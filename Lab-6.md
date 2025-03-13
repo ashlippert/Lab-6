@@ -192,4 +192,36 @@ March 12th, 2025
 ## Discussion:
 
 
+This lab explored the capabilities and limitations of using an ultrasonic sensor for distance measurement and an H-Bridge motor driver for controlling robotic movement. By testing these components, their accuracy, resolution, and overall reliability in a mobile system were analyzed.
+
+<br/>
+
+**Ultrasonic Sensor Resolution and Precision**
+
+The HC-SR04 ultrasonic sensor has a resolution of about 3 mm (0.03 cm), meaning it can detect changes in distance at that scale. While this is sufficient for general object detection, small movements, such as shifting an object by a millimeter, were not always reflected in the sensor readings. This was likely due to the sensor's inherent limitations, as well as external factors like object surface properties and the angle of reflection.
+
+When comparing actual and measured distances, slight variations were observed, as shown in Table 1. These inconsistencies suggest that while the sensor is reliable for detecting obstacles, it may not be ideal for applications requiring extreme precision. In future iterations, using multiple sensors or applying software-based filtering techniques could help improve accuracy.
+
+<br/>
+
+**Minimum Motor Speed for Movement**
+
+Through testing different PWM values, a speed setting of 30 was required to initiate motor movement. At lower values, such as 10 or 20, the motors remained stationary. This suggests that factors like friction and motor resistance play a role in movement activation, meaning that PWM values must be carefully selected to balance efficiency and performance. Understanding this threshold is essential for optimizing motor control while minimizing unnecessary power consumption.
+
+<br/>
+
+**Collision Avoidance System Performance**
+
+Integrating the ultrasonic sensor with motor control allowed for the creation of a basic collision avoidance system. When an obstacle was detected within 10 cm, the motors stopped, as confirmed by the serial monitor output in Figure 14. However, slight inaccuracies in distance readings occasionally led to minor variations in stopping distance. One way to address this would be by implementing multiple sensors and averaging the readings before making a movement decision.
+
+Overall, the collision avoidance system performed well for basic robotic navigation. Future refinements could include adding more sensors to detect obstacles from different angles. Additionally, refining the algorithm to allow for smoother stopping transitions would make the system more reliable in dynamic environments.
+
+<br/>
+
 ## Conclusion:
+
+This lab successfully demonstrated the integration of an ultrasonic sensor with an H-Bridge motor driver to create a functional robotic mobility system with obstacle detection capabilities. Through testing, the ultrasonic sensor was shown to be effective for detecting objects, though its resolution limited precision in small-scale measurements. The motor control system, regulated through PWM signals, operated reliably, with a minimum speed threshold identified at a setting of 30.
+
+The collision avoidance system performed as expected, stopping the motors when an obstacle was detected within 10 cm. However, minor inconsistencies in sensor readings highlight the need for potential improvements, such as implementing multiple sensors or refining data processing algorithms to enhance accuracy. Future developments could focus on expanding obstacle detection capabilities and optimizing motor control for smoother operation.
+
+Overall, the lab provided valuable insight into sensor-actuator integration and real-time decision-making for robotic applications. These principles are essential in the development of autonomous systems, where precise sensing and responsive control are critical for reliable performance.
